@@ -27,13 +27,13 @@ schema_get_file_content = {
     "type": "function",
     "function": {
         "name": "get_file_content",
-        "description": "Reads the contents of a file to the first 10,000 characters",
+        "description": "Reads the content of a file (at most 10,000 characters) of a specified file within the working directory",
         "parameters": {
             "type": "object",
             "properties": {
                 "file_path": {
                     "type": "string",
-                    "description": "file path relative to the working directory",
+                    "description": "path to the file to read, relative to the working directory",
                 },
             },
             "required": ["file_path"],

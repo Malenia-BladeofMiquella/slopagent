@@ -44,7 +44,7 @@ schema_run_python_file = {
     "type": "function",
     "function": {
         "name": "run_python_file",
-        "description": "Runs/executes a specified python file with optional arguments, returning its output",
+        "description": "executes a specified python file, returning its output",
         "parameters": {
             "type": "object",
             "properties": {
